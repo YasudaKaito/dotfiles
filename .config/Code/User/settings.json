@@ -1,0 +1,122 @@
+{
+    "window.restoreWindows": "all",
+    "editor.fontSize": 14,
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.fontWeight": "bold",
+    "editor.fontFamily": "'メイリオ'",
+    // "editor.fontFamily": "monospace",
+    // "editor.fontFamily": "Osaka-Mono",
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": "bold",
+    "editor.renderLineHighlight": "all",
+    // "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Atom One Dark",
+    // "editor.formatOnType": true,
+    // "python.autoComplete.addBrackets": true,
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#FFFFFF"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    // "files.autoGuessEncoding": true,
+    // "files.encoding": "shiftjis",
+    "files.encoding": "utf8",
+    "workbench.editor.showTabs": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "extensions.ignoreRecommendations": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.insertFinalNewline": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    // ESLintに対応しているファイルは保存時にESLintによるフォーマットを行う
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "git.enableSmartCommit": true,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "window.zoomLevel": -3,
+    "redhat.telemetry.enabled": false,
+    "git.autofetch": false,
+    "files.useExperimentalFileWatcher": true,
+    "files.exclude": {
+        "/.git": true,
+        "/.DS_Store": true,
+        "/node_modules": true,
+        "/node_modules/": true
+    },
+    "search.exclude": {
+        "/node_modules": true
+    },
+    "files.watcherExclude": {
+        "/node_modules/": true
+    },
+    "git.autofetchPeriod": 1800,
+    "debug.showInlineBreakpointCandidates": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.formatting.provider": "black",
+    // // デフォルトのコード整形を無効化
+    // "editor.formatOnSave": false,
+    // // ESLint 自動フォーマット有効化
+    // // "eslint.autoFixOnSave": true,
+    // // ESLint の Vue.js 設定
+    // "eslint.validate": [
+    //     "javascript",
+    //     "javascriptreact",
+    //     "vue"
+    // ],
+
+    // // Prettier の ESLint 連携
+    // "prettier.eslintIntegration": true,
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+
+    // "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    // "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    // "editor.tabSize": 2,
+    // "editor.formatOnSave": true,
+    // // "eslint.enable": true,
+    // "files.associations": {
+    //     "*.vue": "vue"
+    // },
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // }
+    // "eslint.autoFixOnSave": true,
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+    // "editor.formatOnSave": true,
+    // "python.formatting.provider": "yapf",
+    // "editor.largeFileOptimizations": false,
+    // "[css]": {
+    //     "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    // },
+    // "editor.tokenColorCustomizations": {
+    //     "comments": "#008000"
+    // }
+}
